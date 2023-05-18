@@ -27,6 +27,14 @@
             padding: 9px;
         }
 
+        tbody > tr:nth-child(2n) { /* 2n-1*/
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n */
+            background-color: aliceblue;
+        }
+
         td.num {
             text-align: right;
         }
@@ -34,6 +42,8 @@
             background-color: gray;
             color: aliceblue;
         }
+
+        
     </style>
 </head>
 <body>
